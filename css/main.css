@@ -1,0 +1,177 @@
+body{
+    margin:0;
+    padding:0;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif
+}
+/*Navegacion*/
+header{
+    width: 100%;
+    height: 70px;
+    
+}
+header nav{
+    display: flex; /* para mover lo del display de manera flexible*/
+    justify-content: flex-end ; /*para moverlo al final*/
+
+}
+header nav .nav-derecha{
+    list-style: none;/*para que no tenga los puntitos la lista*/
+    display: flex;
+    /*flex - responsivo y flexible*/
+    justify-content: center;
+    align-items: center; /*alinear vertical*/
+    height: auto;
+    /*background-color: beige;*/
+}  
+
+a{
+    text-decoration:none;
+    cursor:pointer; /*manita*/
+}
+
+nav .nav-derecha a{
+    margin-right:25px; /*margen entre gmail e imagenes*/
+    color: #000000DE;
+}
+/*para llamar una clase es con . al inicio*/
+ nav .nav-derecha .menu{
+background-image: url("https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png");
+width: 20px;
+height: 20px;
+background-size: contain; /*mantiene la imagen dentre de la cajita*/
+}
+
+.nav-derecha img{
+    border-radius:50px ; /*hacer la imagen redonda*/
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+main{
+    margin-top:50px;
+    text-align: center;
+
+}
+
+main .main-logo{
+width: 530px;
+margin:0 auto;
+margin-bottom: 35px;
+}
+main .main-logo img{
+    height: 100px; /*tamaño de la imagen*/
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 35px;
+}
+main .main-input input {/*donde deja escribir*/
+    border: none;
+    width: 540px;
+    height: 30px;
+    outline: none;
+}
+
+
+main .main-input-container{ /*esta es la cajita*/
+    width: 600px;
+    border: 1px solid #dfe1dfe5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0px rgba(36, 37, 37, 0.514);/*el 0 no se x, y, difuminado, color*/
+}
+
+main .main-input .search-icon{ 
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+   /* background-size: contain;*/
+    width: 5px;
+    height: 5px;
+    padding: 5%;
+}
+main .main-input .micro-icon{ 
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 5px;
+    height: 5px;
+    padding: 2%;
+    margin-right:20px;
+}
+
+main .main-input .cam-icon{ 
+    background-image: url("https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2px;
+    height: 2px;
+    padding: 3%;
+    margin-right:20px;
+}
+
+main .main-buttons button{
+    border: none;
+    height: 36px;
+    background-color: #fBf9fa;
+    font-size: 14px;
+    color: #3c4843;
+    border-radius: 4px;
+    padding: 0 15px;
+    border: 1px solid #f8f9fa;
+    margin-right: 30px;
+
+}
+
+main .main-buttons button:hover{
+    box-shadow:0 1px 3px ;
+    border: 1px solid #dadced;
+     color: #202124;
+     cursor: pointer;
+}
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    position:absolute;
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top: 1px solid #e4eee4;
+    bottom: 0;
+}
+
+footer ul{
+    margin: 18px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+footer ul li a{ 
+color: #70757a;
+margin: 10px;
+}
+
+footer .footer-left{
+    justify-self: left;
+
+}
+footer .footer-right{
+    justify-self: right;
+    
+}
