@@ -4,8 +4,11 @@ Desarrollado como practica en el bootcamp de tecnolochicas💜
 
 ## Indice
 [1. Intro](INTRO)
+
 [2. Construcción]()
+
 [3. Objetivos]()
+
 [4. Link al demo]()
 
 ***
