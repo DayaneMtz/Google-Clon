@@ -29,4 +29,4 @@ Aprender a usar etiquetas de HTML5 y las propiedades de CSS5, así como conocer 
 
 ## Link al demo💥
 Da click al siguiente link para visualizar el proyecto.
-* [Clonacion de Google] (https://dayanemtz.github.io/)
+* [Clonacion de Google](https://dayanemtz.github.io/)
